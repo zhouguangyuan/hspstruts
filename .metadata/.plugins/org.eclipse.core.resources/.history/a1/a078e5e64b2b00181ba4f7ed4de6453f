@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+ <struts-config>
+    <!-- 配置ActionForm -->  
+  <form-beans>  
+    <form-bean name="loginForm" type="com.hsp.forms.LoginForm">      
+    </form-bean>  
+  </form-beans> 
+   <!-- 配置映射关系 -->  
+  <action-mappings>  
+    <action  
+      attribute="loginForm"  
+      input="/form/login.jsp"  
+      name="loginForm"  
+      path="/login"  
+      scope="request"  
+      validate="true"  
+      type="com.hsp.actions.LoginAction">  
+        
+      <!-- 配置局部异常处理 -->  
+      <exception type="" key=""/>  
+  
+      <!-- 配置局部跳转 -->  
+      <forward name="admin" path="/admin.jsp"/>  
+      <forward name="employee" path="/employee.jsp"/>  
+    </action>  
+  </action-mappings>
+ 
+ </struts-config>

@@ -7369,3 +7369,83 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/strutslogin/We
 
 !ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:05.446
 !MESSAGE Unable to synchronize source selection.
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.500
+!MESSAGE NLS unused message: pluginName in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.501
+!MESSAGE NLS unused message: pluginProvider in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.501
+!MESSAGE NLS unused message: _WARN_INVALID_JAVA_PACKAGE in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.501
+!MESSAGE NLS unused message: ExampleProjectCreationWizard.title in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.501
+!MESSAGE NLS unused message: ExampleProjectCreationWizard.op_error.title in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.501
+!MESSAGE NLS unused message: ExampleProjectCreationWizard.op_error.message in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.502
+!MESSAGE NLS unused message: ExampleProjectCreationWizard.overwritequery.title in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.502
+!MESSAGE NLS unused message: ExampleProjectCreationWizard.overwritequery.message in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.502
+!MESSAGE NLS unused message: ExampleProjectCreationOperation.op_desc in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.502
+!MESSAGE NLS unused message: ExampleProjectCreationOperation.op_desc_proj in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-19 14:45:10.502
+!MESSAGE NLS unused message: ExampleProjectCreationWizardPage.error.alreadyexists in: plugin
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-19 16:06:46.381
+!MESSAGE An internal error occurred during: "Restarting server...".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:274)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:363)
+	at org.eclipse.jface.window.Window.createShell(Window.java:482)
+	at org.eclipse.jface.window.Window.create(Window.java:425)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1083)
+	at org.eclipse.jface.window.Window.open(Window.java:785)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.basicRun(Unknown Source)
+	at com.genuitec.eclipse.core.ui.action.LicenseValidatingAction.run(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerRestartAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-03-19 16:06:53.727
+!MESSAGE An internal error occurred during: "Restarting server...".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:274)
+	at org.eclipse.swt.widgets.Shell.<init>(Shell.java:363)
+	at org.eclipse.jface.window.Window.createShell(Window.java:482)
+	at org.eclipse.jface.window.Window.create(Window.java:425)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1083)
+	at org.eclipse.jface.window.Window.open(Window.java:785)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerStartAction.basicRun(Unknown Source)
+	at com.genuitec.eclipse.core.ui.action.LicenseValidatingAction.run(Unknown Source)
+	at com.genuitec.eclipse.easie.core.ui.action.ServerRestartAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 16:09:41.271
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 16:09:42.374
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 16:09:42.375
+!MESSAGE Ignoring modified text node with null parent.

@@ -23,8 +23,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <form action="??" method="post">
-    UserName:<input type="text" name="username" /></br>
+    <form action="/strutslogin/login.do" method="post">
+    UserName:<input type="text" name="userName" /></br>
     Password:<input type="password" name="password" /></br>
     <input type="submit" value="Enter" />
     </form>
