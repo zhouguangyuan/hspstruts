@@ -7303,3 +7303,69 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/strutslogin/We
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2018-03-19 13:51:39.855
 !MESSAGE Resource '/strutslogin/WebRoot/WEB-INF/wel.jsp' does not exist.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:03:30.052
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:03:58.999
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:29.894
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:30.200
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:31.691
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:32.300
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:32.599
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:33.051
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:04:34.099
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:05:18.649
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:05:22.241
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:06:26.898
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:06:55.698
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:06:55.828
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:06:56.703
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:06:57.526
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:01.251
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:01.284
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:02.291
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:02.356
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:02.685
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2018-03-19 14:07:05.446
+!MESSAGE Unable to synchronize source selection.
