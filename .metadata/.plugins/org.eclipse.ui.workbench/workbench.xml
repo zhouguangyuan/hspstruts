@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="46" version="2.0">
+<workbench progressCount="43" version="2.0">
 <workbenchAdvisor/>
-<window height="780" maximized="true" width="1268" x="163" y="349">
+<window height="780" maximized="true" minimized="true" width="1268" x="163" y="349">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.maven.ide.eclipse.views.MavenIndexesView"/>
 </fastViewData>
@@ -51,7 +51,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="wel.jsp" partName="wel.jsp" path="E:/workspace/hspstruts/strutslogin/WebRoot/WEB-INF/wel.jsp" title="wel.jsp" tooltip="strutslogin/WebRoot/WEB-INF/wel.jsp" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="wel.jsp" partName="wel.jsp" path="E:/workspace/hspstruts/strutslogin/WebRoot/WEB-INF/wel.jsp" title="wel.jsp" tooltip="strutslogin/WebRoot/WEB-INF/wel.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/strutslogin/WebRoot/WEB-INF/wel.jsp"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginAction.java" partName="LoginAction.java" path="C:/Users/Administrator/workspace/strutslogin/src/com/hsp/actions/LoginAction.java" title="LoginAction.java" tooltip="strutslogin/src/com/hsp/actions/LoginAction.java" workbook="DefaultEditorWorkbook">
@@ -145,7 +145,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="com.genuitec.eclipse.webdesigner3.editors.jsp" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -247,14 +247,14 @@
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1155331" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="0">
-<fastViews>
-<view id="org.eclipse.ui.internal.introview" ratio="0.20782918"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1f59f1" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1155331" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="0">
+<fastViews>
+<view id="org.eclipse.ui.internal.introview" ratio="0.1836299"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
