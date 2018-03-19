@@ -1,0 +1,24 @@
+package com.hsp.actions;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import com.hsp.forms.UserForm;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+public class LoginAction extends Action {
+	@Override
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			ServletRequest arg2, ServletResponse arg3) throws Exception {
+		// TODO Auto-generated method stub
+		UserForm userForm = (UserForm)form;
+		System.out.println(userForm.getUsername());
+		return null;
+		
+		
+	}
+
+}

@@ -1,0 +1,50 @@
+package om.hsp.utils;
+
+import java.io.InputStream;
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Properties;
+
+public class SqlHelper {
+	//定义变量
+	private static Connection ct = null;
+	//大多数情况上用PreparedStatement替代statement
+	private static PreparedStatement ps = null;
+	private static ResultSet rs = null;
+	
+	//连接数据的参数
+	private static String url = "";
+	private static String username = "";
+	private static String driver = "";
+	private static String password = "";
+	
+	private static CallableStatement cs = null;
+	public static CallableStatement getCs()
+	{
+		return cs;
+	}
+	
+	private static Properties pp = null;
+	private static InputStream fis = null;
+	//加载驱动，只需要一次，用静态代码块
+	static 
+	{
+		try
+		{
+			//从dbinfo.properties
+			pp = new Properties();
+			fis = SqlHelper.class.getClassLoader().getResourceAsStream("mysql.properties");
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			try {
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		}
+	}
+
+}

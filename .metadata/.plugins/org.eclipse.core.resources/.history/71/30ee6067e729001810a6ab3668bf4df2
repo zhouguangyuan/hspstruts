@@ -1,0 +1,112 @@
+package om.hsp.utils;
+
+import java.io.InputStream;
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.Properties;
+
+import javax.servlet.jsp.tagext.TryCatchFinally;
+
+public class SqlHelper {
+	// 定义变量
+	private static Connection ct = null;
+	// 大多数情况上用PreparedStatement替代statement
+	private static PreparedStatement ps = null;
+	private static ResultSet rs = null;
+
+	// 连接数据的参数
+	private static String url = "";
+	private static String username = "";
+	private static String driver = "";
+	private static String password = "";
+
+	private static CallableStatement cs = null;
+
+	public static CallableStatement getCs() {
+		return cs;
+	}
+
+	private static Properties pp = null;
+	private static InputStream fis = null;
+	// 加载驱动，只需要一次，用静态代码块
+	static {
+		try {
+			// 从dbinfo.properties
+			pp = new Properties();
+			fis = SqlHelper.class.getClassLoader().getResourceAsStream(
+					"mysql.properties");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				fis.close();
+			} catch (Exception e) {
+				fis = null;
+			}
+		}
+	}
+
+	// 得到连接
+	public static Connection getConnection() {
+		try {
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return ct;
+	}
+	
+	//****callPro1存储过程函数1*****
+	public static CallableStatement callPro1(String sql, String[]parameters){
+		try {
+			ct = getConnection();
+			cs = ct.prepareCall(sql);
+			if(parameters!=null){
+				for(int i=0; i<parameters.length; i++){
+					cs.setObject(i+1, parameters[i]);
+					};
+			}cs.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException(e.getMessage());
+		}finally{
+			close(rs, cs, ct);
+		}
+		return cs;
+	}
+	
+	public static void close(ResultSet rs, Statement ps, Connection ct){
+		//关闭资源，先开后关，后开先关
+		if(rs!=null)
+		{
+			try {
+				rs.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		
+		if(ps!=null)
+		{
+			try {
+				ps.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		
+		if(ct!=null)
+		{
+			try {
+				ct.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+}
+

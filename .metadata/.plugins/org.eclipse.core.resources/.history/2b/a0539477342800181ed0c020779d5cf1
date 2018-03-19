@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+       "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"       
+       "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<!-- 配置表单 -->
+	<form-beans>
+	<!-- name就表单名字，可以随意写，但是我们建议取名规范，表单类名小写 -->
+	<!-- type用于指定表单全路径 -->
+		<form-bean name="userForm" type="com.hsp.actions.UserForm"></form-bean>
+	</form-beans>
+	<!-- 配置action -->
+	<!-- 配置具体的一个action path：表示将来访问该action的资源名uri -->
+	<action-mappings>
+		<action path="/login" name="userForm"
+			type="com.hsp.actions.LoginAction">
+			<!-- 这是配置跳转关系 -->
+			<!-- name 表示结果名称 path:转发到哪个页面 -->
+			<forward name="ok" path="/WEB-INF/wel.jsp" />
+			<forward name="err" path="/WEB-INF/err.jsp" />
+		</action>
+	</action-mappings>
+</struts-config>

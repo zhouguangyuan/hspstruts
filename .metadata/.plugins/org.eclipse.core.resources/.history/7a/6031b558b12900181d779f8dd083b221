@@ -1,0 +1,13 @@
+package om.hsp.utils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class SqlHelper {
+	//定义变量
+	private static Connection ct = null;
+	//大多数情况上用PreparedStatement替代statement
+	private static PreparedStatement ps = null;
+	
+
+}

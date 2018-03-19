@@ -1,0 +1,7 @@
+package com.hsp.actions;
+
+import org.apache.struts.action.ActionForm;
+
+public class LoginAction extends ActionForm {
+
+}

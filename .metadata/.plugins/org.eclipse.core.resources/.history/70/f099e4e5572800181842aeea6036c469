@@ -1,0 +1,23 @@
+package com.hsp.actions;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import com.hsp.forms.UserForm;
+
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+public class LoginAction extends Action {
+	// 需要重写一个方法：excute()会被自动调用，有点类似servlet/service
+	@Override
+	public ActionForward execute(ActionMapping mapping, ActionForm form,
+			ServletRequest request, ServletResponse response) throws Exception {
+		// 把form转成对应的UserForm对象
+		UserForm userForm = (UserForm)form;
+		System.out.println("用户名=" + userForm.getUsername());
+		return null;
+	}
+
+}

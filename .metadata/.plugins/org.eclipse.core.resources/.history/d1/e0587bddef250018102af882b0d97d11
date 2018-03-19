@@ -1,0 +1,11 @@
+package com.hsp.forms;
+
+import org.apache.struts.action.ActionForm;
+
+public class UserForm extends ActionForm {
+	private String username;
+	private String password;
+	
+	
+
+}

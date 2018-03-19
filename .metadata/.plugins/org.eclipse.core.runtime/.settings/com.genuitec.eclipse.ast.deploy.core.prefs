@@ -1,0 +1,22 @@
+#Fri Mar 16 13:45:28 CST 2018
+tomcat6Server.strutsManual.shouldBackup=false
+tomcat6Server.strutsManual.isDeployed=true
+tomcat6Server.strutslogin.isDeployed=true
+tomcat6Server.strutslogin.isUptoDate=true
+tomcat6Server.strutsManual.deployIsOverProject=false
+tomcat6Server.strutsManual.deploymentPath=D\:\\apache-tomcat-6.0.29\\webapps\\strutsManual
+tomcat6Server.strutslogin.contextRoot=/strutslogin
+tomcat6Server.strutslogin.earProjectName=
+eclipse.preferences.version=1
+tomcat6Server.strutslogin.deploymentPath=D\:\\apache-tomcat-6.0.29\\webapps\\strutslogin
+tomcat6Server.strutsManual.earProjectName=
+tomcat6Server.strutsManual.isUptoDate=true
+tomcat6Server.strutslogin.deployIsOverProject=false
+tomcat6Server.strutsManual.contextRoot=/strutsManual
+tomcat6Server.strutsManual.isExploded=true
+tomcat6Server.strutslogin.shouldOverwrite=false
+tomcat6Server.strutslogin.isExploded=true
+tomcat6Server.strutsManual.shouldOverwrite=false
+tomcat6Server.strutslogin.type=WebDeployment
+tomcat6Server.strutsManual.type=WebDeployment
+tomcat6Server.strutslogin.shouldBackup=false

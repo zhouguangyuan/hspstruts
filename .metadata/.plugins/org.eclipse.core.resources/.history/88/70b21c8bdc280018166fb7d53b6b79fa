@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+<form-beans>
+<form-bean name="loginForm" type="com.struts.form.LoginForm"></form-bean>
+</form-beans>
+
+<action-mappings>
+<action></action>
+</action-mappings>
+</struts-config>
+
